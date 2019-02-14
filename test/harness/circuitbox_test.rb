@@ -18,10 +18,4 @@ class ::Harness::CircuitboxTest < ::MiniTest::Test
 
     assert_gauge "circuitbox.circuit.test_circuit.execution_time"
   end
-
-private
-
-  def instrument(event, data = {}, &block)
-    super(event, data, &block)
-  end
 end
