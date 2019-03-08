@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Forward Circuitbox's internal metrics to Harness}
   spec.description   = %q{Forward Circuitbox's internal metrics to Harness.}
   spec.license       = "MIT"
+  spec.homepage      = "https://github.com/newellista/harness-circuitbox"
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
